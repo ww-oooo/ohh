@@ -20,7 +20,7 @@ $(function(){
 		if(flag){
 			if($(this).hasClass('protect')){
                 choose_two.queue(function () {
-                    box.css("padding-top", "10px");
+                    box.css("padding-top", "8px");
                     $(this).css("display", "block").delay(5000).css('transform','translateY(0px)');
                     $(this).dequeue();
                 });

@@ -1,0 +1,186 @@
+html {
+    /*overflow-y: hidden;*/
+   
+}
+body{
+	background:#282f3c;
+}
+.hot_3dalbum {
+    height: 916px;
+	margin:0 auto;
+	padding-top: 100px;
+	overflow: hidden;
+	position: relative;
+	
+}
+.zhaol,.zhaor{
+	position: absolute;
+	width: 100%;
+	height:62.4%;
+	z-index: 100;
+	top: 0;
+	box-shadow: 0 0 0 270px rgba(40,40,47,0.6);
+}
+.zhaol{
+	left: -100%;
+	
+	
+}
+.zhaor{
+	right: -100%;
+}
+/*
+3D相册*/
+.dg_container {
+    width: 100%;
+    height: 916px;
+    position: relative;
+}
+
+.dg_wrapper {
+    width: 591px;
+    height: 916px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 2000px;
+    -moz-perspective: 2000px;
+    -o-perspective: 2000px;
+    -ms-perspective: 2000px;
+    perspective: 2000px;
+}
+
+.dg_wrapper a {
+    overflow: hidden;
+    width: 591px;
+    height: 916px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.dg_wrapper a.dg-transition {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.dg_wrapper a img {
+    display: block;
+}
+
+
+.dg_wrapper a.dg-center {
+    display: block;
+    width: 591px;
+    height: 916px;
+}
+
+.dg_wrapper a.dg-center div {
+    display: block;
+
+}
+
+.dg_wrapper a.dg-center img {
+    width: 591px;
+    height:916px;
+    z-index: 1;
+}
+
+.float_layer {
+    width: 591px;
+    height: 916px;
+    z-index: 999;
+   
+    position: absolute;
+    margin-left:196px;
+    margin-top:-913px;
+    position: relative;
+    overflow: visible;
+   
+
+}
+
+.dg_float {
+    width: 431px;
+    height: 94px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+
+.dg_float_con {
+    width: 320px;
+    height: 68px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.dg_float_con p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.dg_float_con p.hot_price {
+    font-size: 36px;
+    color: #ffea00;
+    margin-top: 5px;
+}
+
+.dg_float_con p.hot_price span {
+    font-size: 18px;
+}
+/*nav*/
+.dg_container nav span.dg_prev {
+    display: block;
+    position: absolute;
+    width: 265px;
+    height: 916px;
+    margin-top: -867px;
+    margin-left: -140px;
+}
+
+.dg_container nav span.dg_next {
+    display: block;
+    position: absolute;
+    width: 591px;
+    height:916px;
+    margin-top: -867px;
+    margin-left: 830px;
+}
+
+.ui-loader {
+    display: none;
+}
+.content{
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+.content .title{
+	line-height: 100px;
+	padding-left: 70px;
+	
+	font-size:22px;
+	color:#fff;
+}
+.content .main p{
+	padding-left: 70px;
+	padding-right: 70px;
+    text-align:justify;
+    text-align-last:justify;
+	font-size:14px;
+	color:#8c8e94;
+	margin-top: 20px;
+}

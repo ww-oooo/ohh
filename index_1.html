@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>ohh智能家居</title>
+<link href="style/basic.css" rel="stylesheet" type="text/css">
+<link href="style/hot.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+<script type="text/javascript" src="js/ohh.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body>
+    <!--3D轮播-->
+    <div class="hot_3dalbum">
+        <div class="container">
+            <section id="dgContainer" class="dg_container">
+                <div class="dg_wrapper">
+                    <a href="#">
+                        <img src="img/product-1.jpg" alt="image01">
+                    </a>
+                    <a href="#">
+                        <img src="img/product-2.jpg" alt="image02">
+                    </a>
+                    <a href="#">
+                        <img src="img/product-3.jpg" alt="image03">
+                    </a>               
+                </div>
+                <nav>
+                <span class="dg_prev"></span>
+                <span class="dg_next"></span>                </nav>
+                <div class="float_layer">
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--文字-->
+   <div class="content">
+   	    <div class="title">
+   	    	智慧管家服务-真正的智能无需助手
+   	    </div>
+   	    <div class="main">
+   	    	<p>
+   	    		早上7点起床，自动开启你的小音箱，有音乐起床更容易。
+   	    		如果家里已经有遥控灯，更能配合自动开启。
+   	    		出门后Ohh会关闭你的空气净化器，指挥扫地机器人开始清洁房间。
+   	    		回家前1小时提前打开空气净化器，
+   	    		节能的同时又可以让你一进门就呼吸干净的空气。
+   	    	</p>
+   	    	<p>
+   	    		早上7点起床，自动开启你的小音箱，有音乐起床更容易。
+   	    		如果家里已经有遥控灯，更能配合自动开启。
+   	    		出门后Ohh会关闭你的空气净化器，指挥扫地机器人开始清洁房间。
+   	    	</p>
+   	    	<p>
+   	    		 早上7点起床，自动开启你的小音箱
+   	    	</p>
+   	    </div>
+   </div>
+<script type="text/javascript">
+        $('#dgContainer').gallery({
+            autoplay: true,
+            interval: 3000
+        });
+</script>
+</body>
+</html>

@@ -9,6 +9,7 @@ $(function(){
 	var choose_two=$('.choose-two');
 	var back=$('.back');
 	var end=$('.main');
+    var box=$('#box');
 	console.log(protect.length);
 	console.log(lamp_big.length);
 	var flag=true;
@@ -19,6 +20,7 @@ $(function(){
 		if(flag){
 			if($(this).hasClass('protect')){
                 choose_two.queue(function () {
+                    box.css("padding", "0px");
                     $(this).css("display", "block").delay(5000).css('transform','translateY(0px)');
                     $(this).dequeue();
                 });
